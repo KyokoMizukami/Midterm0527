@@ -1,0 +1,25 @@
+<%- include("_header") %>
+
+<div class="create-wrapper">
+  <form action="" method="post" id="edit_blog">
+    <div class="create-form-item">
+      <label for="title">Title</label>
+      <input type="text" name="title" class="editTitle" />
+    </div>
+    <div class="create-form-item-description">
+      <label for="script">Description</label>
+      <textarea
+        name="description"
+        id=""
+        cols="30"
+        rows="20"
+        class="editDescription"
+      ></textarea>
+    </div>
+    <div class="create-button">
+      <input type="submit" value="Edit" />
+    </div>
+  </form>
+</div>
+
+<%- include("_footer") %>
